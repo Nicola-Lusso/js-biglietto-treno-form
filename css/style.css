@@ -16,3 +16,40 @@ h1 {
   text-transform: uppercase;
   padding: 25px 0;
 }
+
+.form-dati {
+  background-color: white;
+  max-width: 1300px;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px rgba(20, 20, 20, 0.78);
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  padding: 35px 25px;
+}
+
+label{
+  color: rgb(142, 33, 72);
+}
+
+.btn {
+  padding-bottom: 20px;
+}
+
+button{
+  background-color: lightgrey;
+  margin: 0 10px;
+  padding: 4px 20px;
+  color: rgb(142, 33, 72);
+  text-transform: uppercase;
+  border-radius: 4px;
+}
