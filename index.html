@@ -4,25 +4,37 @@
     <meta charset="utf-8">
     <title>Calcolo prezzo Biglietto Treno</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
   </head>
   <body>
 
     <!-- Wrapper corpo della page -->
     <div class="wrapper">
       <h1>Calcola il prezzo del tuo biglietto</h1>
+      <!-- Dati Utente -->
       <div class="form-dati">
         <div class="row">
           <div class="col">
-dd
+            <label for="nome">Nome Cognome</label>
+            <input id="nome" type="text" name="" value="Inserisci nome e cognome">
           </div>
           <div class="col">
-
+            <label for="km">Km</label>
+            <input id="km" type="number" name="" value="km da percorrere">
           </div>
           <div class="col">
-
+            <label for="eta">Fascia età</label>
+            <select id="eta" name="">
+              <option value="Minorenne">Minorenne</option>
+              <option value="Maggiorenne">Maggiorenne</option>
+              <option value="Over65">Over65</option>
+            </select>
           </div>
         </div>
       </div>
+      <!-- /Dati Utente -->
+
     </div>
     <!--/ Wrapper corpo della page -->
 
