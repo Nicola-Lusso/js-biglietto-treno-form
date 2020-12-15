@@ -26,12 +26,12 @@ h1 {
   box-shadow: 4px 4px 8px rgba(20, 20, 20, 0.78);
 }
 
-.row{
+.wrapper .row{
   display: flex;
   justify-content: center;
 }
 
-.col{
+.wrapper .col{
   display: flex;
   flex-direction: column;
   padding: 35px 25px;
@@ -90,6 +90,49 @@ h2{
   margin: auto;
 }
 
+.hidden{
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.show{
+  opacity: 1;
+  transition: 0.2s;
+}
+
 #biglietto h3{
-  padding: 20px 0px;
+  padding-top: 20px;
+  text-align: left;
+  margin-left: 30px;
+}
+#biglietto .row{
+  display: flex;
+}
+#biglietto .col{
+  padding-bottom: 30px;
+}
+#biglietto .box{
+  background-color: lightgrey;
+  margin-left: 0;
+}
+
+#biglietto h5{
+  text-align: left;
+  font-size: 25px;
+  padding: 10px 30px;
+}
+
+#biglietto table{
+  margin-left: 200px;
+}
+
+#biglietto th{
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+
+#nome-passeggero{
+  text-align: center;
+  color: darkviolet;
 }
