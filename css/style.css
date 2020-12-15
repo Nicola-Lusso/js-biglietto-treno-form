@@ -41,6 +41,14 @@ label{
   color: rgb(142, 33, 72);
 }
 
+input{
+  margin: 20px 0;
+}
+
+select{
+  margin: 20px 0;
+}
+
 .btn {
   padding-bottom: 20px;
 }
@@ -52,4 +60,36 @@ button{
   color: rgb(142, 33, 72);
   text-transform: uppercase;
   border-radius: 4px;
+}
+
+input::placeholder{
+  text-align: center;
+}
+
+input, select{
+  border-radius: 4px;
+  border: 1px solid rgb(142, 33, 72);
+  text-align: center;
+  padding: 5px;
+}
+
+input:focus{
+  background-color: rgb(142, 33, 72, 0.70);
+  color: white;
+}
+
+h2{
+  padding: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+#biglietto{
+  background-color: white;
+  max-width: 1300px;
+  margin: auto;
+}
+
+#biglietto h3{
+  padding: 20px 0px;
 }
